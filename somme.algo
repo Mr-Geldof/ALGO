@@ -1,0 +1,16 @@
+ALGORITHM phrase
+VAR
+    phrase : STRING;
+    taille: INTEGER;
+    nbreMot: INTEGER;
+    i,j,n: INTEGER;
+BEGIN
+    write("Donnez une phrase");
+    Read(phrase);
+    FOR i FROM 0 TO length(phrase) STEP 1  DO
+        taille+= 1;
+    END_FOR 
+    FOR J FROM 0 TO taille STEP 1  DO
+        nbreMot = taille.length;
+    END_FOR
+END
